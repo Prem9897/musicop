@@ -51,7 +51,7 @@ async def ping_pong(_, message: Message):
 
 
 @app.on_message(
-    command(["start", f"start@{BOT_USERNAME}"]) & filters.group & ~filters.edited
+    command(["startt", f"start@{BOT_USERNAME}"]) & filters.group & ~filters.edited
 )
 async def start_group(_, message: Message):
     await message.delete()
