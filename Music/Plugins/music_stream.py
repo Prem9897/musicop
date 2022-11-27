@@ -48,7 +48,7 @@ async def play(_, message: Message):
 
     await message.delete()
     if int(chat_id) == int('-1001771245214'):
-        await message.reply_text("⚠️ **The @exmusicx_bot bot in the support group is disabled, to avoid confusion.**\n\n__To avoid spam, you only can safely use it in our group.__",
+        await message.reply_text("⚠️ **The @miselisarobot bot in the support group is disabled, to avoid confusion.**\n\n__To avoid spam, you only can safely use it in our group.__",
             disable_web_page_preview=True
         )
         return
@@ -63,7 +63,7 @@ async def play(_, message: Message):
                   [
                      [
                         InlineKeyboardButton("📣 Official Channel",
-                        url="https://t.me/exprojects")
+                        url="https://t.me/denvil_bots")
                      ]
                   ]
               )
